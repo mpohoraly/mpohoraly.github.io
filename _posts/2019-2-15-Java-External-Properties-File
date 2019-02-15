@@ -5,11 +5,11 @@ tags: Java
 ---
 
 When loading properties file in Java one would mostly do something like this:
-{% highlight java %}
+```java
 public class ConfigHandler {
     
     public ConfigHandler() {
         try {
             Properties prop = new Properties();
             prop.load(ConfigHandler.class.getClassLoader().getResourceAsStream("application.properties"));
-{% endhighlight %}
+```java
